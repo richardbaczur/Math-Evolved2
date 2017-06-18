@@ -143,3 +143,9 @@ C:\Users\ricop\infoeducatie\INfoEducatie\INfoEducatie\bin\INfoEducatie.pdb
 C:\Users\ricop\infoeducatie\INfoEducatie\INfoEducatie\obj\Debug\INfoEducatie.csprojResolveAssemblyReference.cache
 C:\Users\ricop\infoeducatie\INfoEducatie\INfoEducatie\obj\Debug\INfoEducatie.dll
 C:\Users\ricop\infoeducatie\INfoEducatie\INfoEducatie\obj\Debug\INfoEducatie.pdb
+C:\Users\ricop\Source\Repos\InfoEdu\INfoEducatie\bin\INfoEducatie.dll.config
+C:\Users\ricop\Source\Repos\InfoEdu\INfoEducatie\bin\INfoEducatie.dll
+C:\Users\ricop\Source\Repos\InfoEdu\INfoEducatie\bin\INfoEducatie.pdb
+C:\Users\ricop\Source\Repos\InfoEdu\INfoEducatie\obj\Debug\INfoEducatie.csprojResolveAssemblyReference.cache
+C:\Users\ricop\Source\Repos\InfoEdu\INfoEducatie\obj\Debug\INfoEducatie.dll
+C:\Users\ricop\Source\Repos\InfoEdu\INfoEducatie\obj\Debug\INfoEducatie.pdb

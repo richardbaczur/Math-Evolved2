@@ -99,6 +99,7 @@
                 <form action="Register.aspx" target="_self">
                     <button type="submit" class="btn btn-danger">Don't have an account? Register here</button>
                 </form>
+                <p class="'pull-right" style="color:grey;"><i>Dacă sunteți profesor, apăsați <a href="#">aici</a>!</i></p>
                 <br />
             </div>
         </div>

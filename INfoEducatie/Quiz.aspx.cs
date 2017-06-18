@@ -15,7 +15,7 @@ namespace INfoEducatie
         {
             string name = Request.QueryString["quiz"];
             quiztitle.InnerText = name;
-            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\ricop\infoeducatie\INfoEducatie\INfoEducatie\App_Data\date.mdf;Integrated Security=True");
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\ricop\Source\Repos\InfoEdu\INfoEducatie\App_Data\date.mdf;Integrated Security=True");
             try
             {
                 con.Open();
@@ -70,7 +70,7 @@ namespace INfoEducatie
         {
             points = 0;
             string name = Request.QueryString["quiz"];
-            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\ricop\infoeducatie\INfoEducatie\INfoEducatie\App_Data\date.mdf;Integrated Security=True");
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\ricop\Source\Repos\InfoEdu\INfoEducatie\App_Data\date.mdf;Integrated Security=True");
 
             try
             {

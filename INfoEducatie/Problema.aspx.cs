@@ -12,7 +12,7 @@ namespace INfoEducatie
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\ricop\infoeducatie\INfoEducatie\INfoEducatie\App_Data\date.mdf;Integrated Security=True");
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\ricop\Source\Repos\InfoEdu\INfoEducatie\App_Data\date.mdf;Integrated Security=True");
             try
             {
                 SqlCommand cmd = new SqlCommand("select enunt from Probleme where name=@name", con);
@@ -36,7 +36,7 @@ namespace INfoEducatie
 
         protected void trimite_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\ricop\infoeducatie\INfoEducatie\INfoEducatie\App_Data\date.mdf;Integrated Security=True");
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\ricop\Source\Repos\InfoEdu\INfoEducatie\App_Data\date.mdf;Integrated Security=True");
 
                 SqlCommand cmd = new SqlCommand("select rezultat from Probleme where name=@name", con);
                 cmd.CommandType = CommandType.Text;

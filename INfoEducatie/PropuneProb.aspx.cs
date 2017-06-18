@@ -17,9 +17,9 @@ namespace INfoEducatie
 
         protected void trim_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\ricop\infoeducatie\INfoEducatie\INfoEducatie\App_Data\date.mdf;Integrated Security=True");
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\ricop\Source\Repos\InfoEdu\INfoEducatie\App_Data\date.mdf;Integrated Security=True");
 
-            SqlCommand cmd = new SqlCommand("insert into Probleme values(@name,@enunt,@rez)", con);
+            SqlCommand cmd = new SqlCommand("insert into ProvisionalProbleme values(@name,@enunt,@rez)", con);
             cmd.CommandType = CommandType.Text;
             cmd.Parameters.AddWithValue("@name", name.Text);
             cmd.Parameters.AddWithValue("@enunt", enunt.Text);

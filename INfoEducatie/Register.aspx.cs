@@ -16,7 +16,7 @@ namespace INfoEducatie
 
         protected void Unnamed1_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\ricop\infoeducatie\INfoEducatie\INfoEducatie\App_Data\date.mdf;Integrated Security=True");
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\ricop\Source\Repos\InfoEdu\INfoEducatie\App_Data\date.mdf;Integrated Security=True");
 
             SqlCommand cmd = new SqlCommand("INSERT INTO Users VALUES (@name,@pass,@email,@prob,@img,@quiz)");
             cmd.Parameters.AddWithValue("@name", name.Text);

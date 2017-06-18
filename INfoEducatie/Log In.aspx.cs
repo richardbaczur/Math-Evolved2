@@ -20,7 +20,7 @@ namespace INfoEducatie
         {
             try
             {
-                SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\ricop\infoeducatie\INfoEducatie\INfoEducatie\App_Data\date.mdf;Integrated Security=True");
+                SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\ricop\Source\Repos\InfoEdu\INfoEducatie\App_Data\date.mdf;Integrated Security=True");
                 con.Open();
                 SqlCommand cmd = new SqlCommand("Select * from Users where username=@name", con);
                 cmd.CommandType = System.Data.CommandType.Text;

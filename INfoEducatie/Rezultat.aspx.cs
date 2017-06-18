@@ -19,7 +19,7 @@ namespace INfoEducatie
 
         private void addToDB()
         {
-            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\ricop\infoeducatie\INfoEducatie\INfoEducatie\App_Data\date.mdf;Integrated Security=True");
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\ricop\Source\Repos\InfoEdu\INfoEducatie\App_Data\date.mdf;Integrated Security=True");
             SqlCommand update = new SqlCommand("UPDATE Users SET quiz=@nquiz WHERE username=@name", con);
             SqlCommand extragere = new SqlCommand("SELECT quiz FROM Users WHERE username=@name", con);
             extragere.Parameters.AddWithValue("@name", INfoEducatie.Log_In.name);

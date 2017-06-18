@@ -18,14 +18,14 @@ namespace INfoEducatie
 
         protected void trimite_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\ricop\infoeducatie\INfoEducatie\INfoEducatie\App_Data\date.mdf;Integrated Security=True");
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\ricop\Source\Repos\InfoEdu\INfoEducatie\App_Data\date.mdf;Integrated Security=True");
             con.Open();
-            SqlCommand adaugareLaLista = new SqlCommand("insert into Quiz values(@name,@desc)", con);
+            SqlCommand adaugareLaLista = new SqlCommand("insert into ProvisionalQuiz values(@name,@desc)", con);
             adaugareLaLista.Parameters.AddWithValue("@name", name.Text);
             adaugareLaLista.Parameters.AddWithValue("@desc", descr.Text);
             adaugareLaLista.CommandType = CommandType.Text;
             adaugareLaLista.ExecuteNonQuery();
-            SqlCommand adaugareQuiz = new SqlCommand("insert into QuizData VALUES(@name,@e1,@e2,@e3,@e4,@e5,@v11,@v12,@v13,@v14,@v15,@v21,@v22,@v23,@v24,@v25,@v31,@v32,@v33,@v34,@v35,@v41,@v42,@v43,@v44,@v45,@v51,@v52,@v53,@v54,@v55,@vc1,@vc2,@vc3,@vc4,@vc5)", con);
+            SqlCommand adaugareQuiz = new SqlCommand("insert into ProvisionalQuiz VALUES(@name,@e1,@e2,@e3,@e4,@e5,@v11,@v12,@v13,@v14,@v15,@v21,@v22,@v23,@v24,@v25,@v31,@v32,@v33,@v34,@v35,@v41,@v42,@v43,@v44,@v45,@v51,@v52,@v53,@v54,@v55,@vc1,@vc2,@vc3,@vc4,@vc5)", con);
             adaugareQuiz.Parameters.AddWithValue("@name",name.Text);
             adaugareQuiz.Parameters.AddWithValue("@e1", e1.Text);
             adaugareQuiz.Parameters.AddWithValue("@e2", e2.Text);
