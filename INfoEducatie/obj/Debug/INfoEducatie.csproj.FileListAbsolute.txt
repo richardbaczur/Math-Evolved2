@@ -1,0 +1,145 @@
+c:\users\zoltan\documents\visual studio 2017\Projects\INfoEducatie\INfoEducatie\bin\roslyn\csc.exe
+c:\users\zoltan\documents\visual studio 2017\Projects\INfoEducatie\INfoEducatie\bin\roslyn\csc.exe.config
+c:\users\zoltan\documents\visual studio 2017\Projects\INfoEducatie\INfoEducatie\bin\roslyn\csc.rsp
+c:\users\zoltan\documents\visual studio 2017\Projects\INfoEducatie\INfoEducatie\bin\roslyn\csi.exe
+c:\users\zoltan\documents\visual studio 2017\Projects\INfoEducatie\INfoEducatie\bin\roslyn\csi.rsp
+c:\users\zoltan\documents\visual studio 2017\Projects\INfoEducatie\INfoEducatie\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\zoltan\documents\visual studio 2017\Projects\INfoEducatie\INfoEducatie\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\zoltan\documents\visual studio 2017\Projects\INfoEducatie\INfoEducatie\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\users\zoltan\documents\visual studio 2017\Projects\INfoEducatie\INfoEducatie\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\zoltan\documents\visual studio 2017\Projects\INfoEducatie\INfoEducatie\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\users\zoltan\documents\visual studio 2017\Projects\INfoEducatie\INfoEducatie\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\zoltan\documents\visual studio 2017\Projects\INfoEducatie\INfoEducatie\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\zoltan\documents\visual studio 2017\Projects\INfoEducatie\INfoEducatie\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\users\zoltan\documents\visual studio 2017\Projects\INfoEducatie\INfoEducatie\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\users\zoltan\documents\visual studio 2017\Projects\INfoEducatie\INfoEducatie\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\zoltan\documents\visual studio 2017\Projects\INfoEducatie\INfoEducatie\bin\roslyn\System.AppContext.dll
+c:\users\zoltan\documents\visual studio 2017\Projects\INfoEducatie\INfoEducatie\bin\roslyn\System.Collections.Immutable.dll
+c:\users\zoltan\documents\visual studio 2017\Projects\INfoEducatie\INfoEducatie\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\users\zoltan\documents\visual studio 2017\Projects\INfoEducatie\INfoEducatie\bin\roslyn\System.IO.FileSystem.dll
+c:\users\zoltan\documents\visual studio 2017\Projects\INfoEducatie\INfoEducatie\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\users\zoltan\documents\visual studio 2017\Projects\INfoEducatie\INfoEducatie\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\zoltan\documents\visual studio 2017\Projects\INfoEducatie\INfoEducatie\bin\roslyn\vbc.exe
+c:\users\zoltan\documents\visual studio 2017\Projects\INfoEducatie\INfoEducatie\bin\roslyn\vbc.exe.config
+c:\users\zoltan\documents\visual studio 2017\Projects\INfoEducatie\INfoEducatie\bin\roslyn\vbc.rsp
+c:\users\zoltan\documents\visual studio 2017\Projects\INfoEducatie\INfoEducatie\bin\roslyn\VBCSCompiler.exe
+c:\users\zoltan\documents\visual studio 2017\Projects\INfoEducatie\INfoEducatie\bin\roslyn\VBCSCompiler.exe.config
+c:\users\zoltan\documents\visual studio 2017\Projects\INfoEducatie\INfoEducatie\bin\INfoEducatie.dll.config
+c:\users\zoltan\documents\visual studio 2017\Projects\INfoEducatie\INfoEducatie\bin\INfoEducatie.dll
+c:\users\zoltan\documents\visual studio 2017\Projects\INfoEducatie\INfoEducatie\bin\INfoEducatie.pdb
+c:\users\zoltan\documents\visual studio 2017\Projects\INfoEducatie\INfoEducatie\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\zoltan\documents\visual studio 2017\Projects\INfoEducatie\INfoEducatie\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\zoltan\documents\visual studio 2017\Projects\INfoEducatie\INfoEducatie\obj\Debug\INfoEducatie.csprojResolveAssemblyReference.cache
+c:\users\zoltan\documents\visual studio 2017\Projects\INfoEducatie\INfoEducatie\obj\Debug\INfoEducatie.dll
+c:\users\zoltan\documents\visual studio 2017\Projects\INfoEducatie\INfoEducatie\obj\Debug\INfoEducatie.pdb
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\csc.exe
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\csc.exe.config
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\csc.rsp
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\csi.exe
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\csi.exe.config
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\csi.rsp
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\System.AppContext.dll
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\System.Collections.Immutable.dll
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\System.Console.dll
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\System.Diagnostics.Process.dll
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\System.IO.Compression.dll
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\System.IO.FileSystem.dll
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\System.IO.Pipes.dll
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\System.Reflection.Metadata.dll
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\System.Security.AccessControl.dll
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\System.Security.Claims.dll
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\System.Threading.Thread.dll
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\System.ValueTuple.dll
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\System.Xml.XPath.dll
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\vbc.exe
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\vbc.exe.config
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\vbc.rsp
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\VBCSCompiler.exe
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\roslyn\VBCSCompiler.exe.config
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\INfoEducatie.dll.config
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\INfoEducatie.dll
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\INfoEducatie.pdb
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Math Evolved\INfoEducatie\INfoEducatie\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Math Evolved\INfoEducatie\INfoEducatie\obj\Debug\INfoEducatie.csprojResolveAssemblyReference.cache
+D:\Math Evolved\INfoEducatie\INfoEducatie\obj\Debug\INfoEducatie.dll
+D:\Math Evolved\INfoEducatie\INfoEducatie\obj\Debug\INfoEducatie.pdb
+C:\Users\admin\Source\Repos\infoeducatie2\INfoEducatie\INfoEducatie\obj\Debug\INfoEducatie.csprojResolveAssemblyReference.cache
+C:\Users\admin\Source\Repos\infoeducatie2\INfoEducatie\INfoEducatie\obj\Debug\INfoEducatie.dll
+C:\Users\admin\Source\Repos\infoeducatie2\INfoEducatie\INfoEducatie\obj\Debug\INfoEducatie.pdb
+C:\Users\admin\Source\Repos\infoeducatie2\INfoEducatie\INfoEducatie\bin\INfoEducatie.dll.config
+C:\Users\admin\Source\Repos\infoeducatie2\INfoEducatie\INfoEducatie\bin\INfoEducatie.dll
+C:\Users\admin\Source\Repos\infoeducatie2\INfoEducatie\INfoEducatie\bin\INfoEducatie.pdb
+C:\Users\admin\Source\Repos\infoeducatie2\INfoEducatie\INfoEducatie\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\admin\Source\Repos\infoeducatie\INfoEducatie\INfoEducatie\bin\INfoEducatie.dll.config
+C:\Users\admin\Source\Repos\infoeducatie\INfoEducatie\INfoEducatie\bin\INfoEducatie.dll
+C:\Users\admin\Source\Repos\infoeducatie\INfoEducatie\INfoEducatie\bin\INfoEducatie.pdb
+C:\Users\admin\Source\Repos\infoeducatie\INfoEducatie\INfoEducatie\obj\Debug\INfoEducatie.csprojResolveAssemblyReference.cache
+C:\Users\admin\Source\Repos\infoeducatie\INfoEducatie\INfoEducatie\obj\Debug\INfoEducatie.dll
+C:\Users\admin\Source\Repos\infoeducatie\INfoEducatie\INfoEducatie\obj\Debug\INfoEducatie.pdb
+C:\Users\Zoltan\Source\Repos\infoeducatie3\INfoEducatie\INfoEducatie\bin\INfoEducatie.dll.config
+C:\Users\Zoltan\Source\Repos\infoeducatie3\INfoEducatie\INfoEducatie\bin\INfoEducatie.dll
+C:\Users\Zoltan\Source\Repos\infoeducatie3\INfoEducatie\INfoEducatie\bin\INfoEducatie.pdb
+C:\Users\Zoltan\Source\Repos\infoeducatie3\INfoEducatie\INfoEducatie\obj\Debug\INfoEducatie.dll
+C:\Users\Zoltan\Source\Repos\infoeducatie3\INfoEducatie\INfoEducatie\obj\Debug\INfoEducatie.pdb
+C:\Users\Zoltan\Source\Repos\infoeducatie3\INfoEducatie\INfoEducatie\obj\Debug\INfoEducatie.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\infoeducatie\INfoEducatie\INfoEducatie\bin\INfoEducatie.dll.config
+C:\Users\admin\Desktop\infoeducatie\INfoEducatie\INfoEducatie\bin\INfoEducatie.dll
+C:\Users\admin\Desktop\infoeducatie\INfoEducatie\INfoEducatie\bin\INfoEducatie.pdb
+C:\Users\admin\Desktop\infoeducatie\INfoEducatie\INfoEducatie\obj\Debug\INfoEducatie.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\infoeducatie\INfoEducatie\INfoEducatie\obj\Debug\INfoEducatie.dll
+C:\Users\admin\Desktop\infoeducatie\INfoEducatie\INfoEducatie\obj\Debug\INfoEducatie.pdb
+C:\Users\Zoltan\Desktop\infoeducatie\INfoEducatie\INfoEducatie\bin\INfoEducatie.dll.config
+C:\Users\Zoltan\Desktop\infoeducatie\INfoEducatie\INfoEducatie\bin\INfoEducatie.dll
+C:\Users\Zoltan\Desktop\infoeducatie\INfoEducatie\INfoEducatie\bin\INfoEducatie.pdb
+C:\Users\Zoltan\Desktop\infoeducatie\INfoEducatie\INfoEducatie\obj\Debug\INfoEducatie.csprojResolveAssemblyReference.cache
+C:\Users\Zoltan\Desktop\infoeducatie\INfoEducatie\INfoEducatie\obj\Debug\INfoEducatie.dll
+C:\Users\Zoltan\Desktop\infoeducatie\INfoEducatie\INfoEducatie\obj\Debug\INfoEducatie.pdb
+C:\Users\Zoltan\Desktop\infoeducatie - Copy\INfoEducatie\INfoEducatie\bin\INfoEducatie.dll.config
+C:\Users\Zoltan\Desktop\infoeducatie - Copy\INfoEducatie\INfoEducatie\bin\INfoEducatie.dll
+C:\Users\Zoltan\Desktop\infoeducatie - Copy\INfoEducatie\INfoEducatie\bin\INfoEducatie.pdb
+C:\Users\Zoltan\Desktop\infoeducatie - Copy\INfoEducatie\INfoEducatie\obj\Debug\INfoEducatie.csprojResolveAssemblyReference.cache
+C:\Users\Zoltan\Desktop\infoeducatie - Copy\INfoEducatie\INfoEducatie\obj\Debug\INfoEducatie.dll
+C:\Users\Zoltan\Desktop\infoeducatie - Copy\INfoEducatie\INfoEducatie\obj\Debug\INfoEducatie.pdb
+C:\Users\user\Source\Repos\infoeducatie\INfoEducatie\INfoEducatie\bin\INfoEducatie.dll.config
+C:\Users\user\Source\Repos\infoeducatie\INfoEducatie\INfoEducatie\bin\INfoEducatie.dll
+C:\Users\user\Source\Repos\infoeducatie\INfoEducatie\INfoEducatie\bin\INfoEducatie.pdb
+C:\Users\user\Source\Repos\infoeducatie\INfoEducatie\INfoEducatie\obj\Debug\INfoEducatie.csprojResolveAssemblyReference.cache
+C:\Users\user\Source\Repos\infoeducatie\INfoEducatie\INfoEducatie\obj\Debug\INfoEducatie.dll
+C:\Users\user\Source\Repos\infoeducatie\INfoEducatie\INfoEducatie\obj\Debug\INfoEducatie.pdb
+C:\Users\Zoltan\Source\Repos\infoeducatie5\INfoEducatie\INfoEducatie\bin\INfoEducatie.dll.config
+C:\Users\Zoltan\Source\Repos\infoeducatie5\INfoEducatie\INfoEducatie\bin\INfoEducatie.dll
+C:\Users\Zoltan\Source\Repos\infoeducatie5\INfoEducatie\INfoEducatie\bin\INfoEducatie.pdb
+C:\Users\Zoltan\Source\Repos\infoeducatie5\INfoEducatie\INfoEducatie\obj\Debug\INfoEducatie.csprojResolveAssemblyReference.cache
+C:\Users\Zoltan\Source\Repos\infoeducatie5\INfoEducatie\INfoEducatie\obj\Debug\INfoEducatie.dll
+C:\Users\Zoltan\Source\Repos\infoeducatie5\INfoEducatie\INfoEducatie\obj\Debug\INfoEducatie.pdb
+C:\Users\ricop\infoeducatie\INfoEducatie\INfoEducatie\bin\INfoEducatie.dll.config
+C:\Users\ricop\infoeducatie\INfoEducatie\INfoEducatie\bin\INfoEducatie.dll
+C:\Users\ricop\infoeducatie\INfoEducatie\INfoEducatie\bin\INfoEducatie.pdb
+C:\Users\ricop\infoeducatie\INfoEducatie\INfoEducatie\obj\Debug\INfoEducatie.csprojResolveAssemblyReference.cache
+C:\Users\ricop\infoeducatie\INfoEducatie\INfoEducatie\obj\Debug\INfoEducatie.dll
+C:\Users\ricop\infoeducatie\INfoEducatie\INfoEducatie\obj\Debug\INfoEducatie.pdb
