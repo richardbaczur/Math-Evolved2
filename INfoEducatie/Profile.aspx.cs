@@ -23,27 +23,33 @@ namespace INfoEducatie
                 sda.Fill(dt);
                 if (dt.Rows[0]["image"].ToString() != "")
                 {
-                    profilePic.Src = "~/upload/" + dt.Rows[0]["image"].ToString();
+                    profilePic.Src = "~/upload/" + INfoEducatie.Log_In.name+".jpg";
                 }
                 else profilePic.Src = "profile.jpg";
                 mail.InnerText = dt.Rows[0]["email"].ToString();
-                string[] aux = dt.Rows[0]["probleme"].ToString().Split(',');
-                probleme.InnerText = "Ai rezolvat "+aux.Length.ToString()+" probleme corect!";
+                string[] auxp = dt.Rows[0]["probleme"].ToString().Split(',');
+                probleme.InnerText = "Ai rezolvat " + auxp.Length.ToString() + " probleme corect!";
                 accType.InnerText = "Elev";
-                aux = dt.Rows[0]["quiz"].ToString().Split(',');
-                quiz.InnerText = "Ai rezolvat " + aux.Length.ToString() + " quiz-uri corect!";
+                string[] auxq = dt.Rows[0]["quiz"].ToString().Split(',');
+                quiz.InnerText = "Ai rezolvat " + auxq.Length.ToString() + " quiz-uri corect!";
+                for (int i = 0; i < auxp.Length; i++)
+                {
+                    pro.InnerHtml += auxp[i] + "<br /><br /><hr /><br />";
+                }
+                for (int i = 0; i < auxq.Length; i++)
+                {
+                    qui.InnerHtml += auxq[i] + "<br /><br /><hr /><br />";
+                }
             }
             con.Close();
         }
 
         protected void picSave_Click(object sender, EventArgs e)
         {
-            string[] aux = picFile.FileName.Split('/');
-            string fileName = aux[aux.Length - 1];
             SqlCommand cmd = new SqlCommand("UPDATE Users SET image=@img WHERE username=@name",con);
             cmd.Parameters.AddWithValue("@name", INfoEducatie.Log_In.name);
-            cmd.Parameters.AddWithValue("@img", fileName);
-            picFile.SaveAs(Server.MapPath("~/upload/"+fileName));
+            cmd.Parameters.AddWithValue("@img", INfoEducatie.Log_In.name);
+            picFile.SaveAs(Server.MapPath("~/upload/"+INfoEducatie.Log_In.name+".jpg"));
             con.Open();
             cmd.ExecuteNonQuery();
             con.Close();

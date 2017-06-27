@@ -130,6 +130,16 @@
                 </div>
                 <div style="padding: 5px;" class="col-md-10">
                     <h1 class="text-center">Profile</h1>
+                    <br />
+                    <div class="row">
+                        <br /><br />
+                        <div id="pro" runat="server" class="col-md-6 text-center">
+                            <h2>Probleme</h2><hr /><br />
+                        </div>
+                        <div id="qui" runat="server" class="col-md-6 text-center">
+                            <h2>Quiz-uri</h2><hr /><br />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

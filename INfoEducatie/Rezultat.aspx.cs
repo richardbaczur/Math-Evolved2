@@ -15,6 +15,10 @@ namespace INfoEducatie
         {
             quiztitle.InnerText = Request.QueryString["name"];
             rez.InnerHtml = "Ai obtinut "+Request.QueryString["rez"]+" puncte din 10!";
+            if (Request.QueryString["rez"] == "10")
+            {
+                addToDB();
+            }
         }
 
         private void addToDB()
@@ -32,9 +36,21 @@ namespace INfoEducatie
                 string[] aux = dt.Rows[0]["quiz"].ToString().Split(',');
                 for (int i = 0; i < aux.Length; i++)
                 {
-
+                    if (Request.QueryString["name"] != aux[i])
+                    {
+                        continue;
+                    }
+                    else return;
                 }
-                update.Parameters.AddWithValue("@nquiz", dt.Rows[0]["quiz"] + "," + Request.QueryString["name"]);
+                if (dt.Rows[0]["quiz"].ToString() == "" || dt.Rows[0]["quiz"].ToString() == null)
+                {
+                    update.Parameters.AddWithValue("@nquiz", Request.QueryString["name"]);
+                }
+                else
+                {
+                    update.Parameters.AddWithValue("@nquiz", dt.Rows[0]["quiz"] + "," + Request.QueryString["name"]);
+                }
+                update.ExecuteNonQuery();
             }
             con.Close();
         }
