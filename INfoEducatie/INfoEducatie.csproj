@@ -72,6 +72,7 @@
     <Content Include="ControlPanel.aspx" />
     <Content Include="Desen.aspx" />
     <Content Include="index.aspx" />
+    <Content Include="LogInProf.aspx" />
     <Content Include="packages.config" />
     <Content Include="Problema.aspx" />
     <Content Include="ProblemeSel.aspx" />
@@ -81,6 +82,7 @@
     <Content Include="Propuneri.aspx" />
     <Content Include="Quiz.aspx" />
     <Content Include="QuizSelector.aspx" />
+    <Content Include="RegisterProfi.aspx" />
     <Content Include="Rezultat.aspx" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.1.1.min.map" />
@@ -160,6 +162,13 @@
     <Compile Include="Log In.aspx.designer.cs">
       <DependentUpon>Log In.aspx</DependentUpon>
     </Compile>
+    <Compile Include="LogInProf.aspx.cs">
+      <DependentUpon>LogInProf.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogInProf.aspx.designer.cs">
+      <DependentUpon>LogInProf.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Problema.aspx.cs">
       <DependentUpon>Problema.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -223,6 +232,13 @@
     </Compile>
     <Compile Include="Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterProfi.aspx.cs">
+      <DependentUpon>RegisterProfi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RegisterProfi.aspx.designer.cs">
+      <DependentUpon>RegisterProfi.aspx</DependentUpon>
     </Compile>
     <Compile Include="Rezultat.aspx.cs">
       <DependentUpon>Rezultat.aspx</DependentUpon>

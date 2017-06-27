@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Log In.aspx.cs" Inherits="INfoEducatie.Log_In" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="LogInProf.aspx.cs" Inherits="INfoEducatie.LogInProf" %>
 
 <!DOCTYPE html>
 
@@ -96,10 +96,10 @@
                     <br />
 
                 </form>
-                <form action="Register.aspx" target="_self">
+                <form action="RegisterProfi.aspx" target="_self">
                     <button type="submit" class="btn btn-danger">Don't have an account? Register here</button>
                 </form>
-                <p style="color:grey;"><i>Dacă sunteți profesor, apăsați <a href="LogInProf.aspx">aici</a>!</i></p>
+                <p class="'pull-right" style="color:grey;"><i>Dacă sunteți elev, apăsați <a href="Log In.aspx">aici</a>!</i></p>
                 <br />
             </div>
         </div>
