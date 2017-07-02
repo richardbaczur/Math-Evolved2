@@ -32,7 +32,7 @@ namespace INfoEducatie
                         {
                             sel.Items.Add(dt.Rows[i]["name"].ToString());
                         }
-                    }
+                    } 
                 }
             }
         }

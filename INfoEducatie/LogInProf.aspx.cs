@@ -23,7 +23,7 @@ namespace INfoEducatie
                 SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\ricop\Source\Repos\InfoEdu\INfoEducatie\App_Data\date.mdf;Integrated Security=True");
                 con.Open();
                 SqlCommand cmd = new SqlCommand("Select * from Profi where username=@name", con);
-                cmd.CommandType = System.Data.CommandType.Text;
+                cmd.CommandType = System.Data.CommandType.Text; 
                 cmd.Parameters.AddWithValue("@name", username.Text);
 
                 using (SqlDataAdapter sda = new SqlDataAdapter(cmd))
