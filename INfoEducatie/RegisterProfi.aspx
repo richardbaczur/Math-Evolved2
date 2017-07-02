@@ -20,7 +20,7 @@
             background-color:white;
             border-radius:10px;
         }
-        .slideanim {
+        .slideanim { 
             visibility: hidden;
         } 
 

@@ -62,6 +62,21 @@ namespace INfoEducatie
         {
             Session["type"] = 't';
             sel.Items.Clear();
+            using (SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\ricop\Source\Repos\InfoEdu\INfoEducatie\App_Data\date.mdf;Integrated Security=True"))
+            {
+                using (SqlCommand cmd = new SqlCommand("SELECT * FROM ProvisionalProfi", con))
+                {
+                    using (SqlDataAdapter sda = new SqlDataAdapter(cmd))
+                    {
+                        DataTable dt = new DataTable();
+                        sda.Fill(dt);
+                        for (int i = 0; i < dt.Rows.Count; i++)
+                        {
+                            sel.Items.Add(dt.Rows[i]["username"].ToString());
+                        }
+                    }
+                }
+            }
         }
 
         protected void app_Click(object sender, EventArgs e)
@@ -152,6 +167,26 @@ namespace INfoEducatie
                     con.Close();
                     break;
                 case 't':
+                    SqlCommand getP = new SqlCommand("SELECT * FROM ProvisionalProfi WHERE username=@name", con);
+                    SqlCommand addP = new SqlCommand("INSERT INTO Profi VALUES(@name,@pass,@email,@inst,@img)", con);
+                    SqlCommand delP = new SqlCommand("DELETE FROM ProvisionalProfi WHERE username=@name", con);
+                    getP.Parameters.AddWithValue("@name", sel.Text);
+                    delP.Parameters.AddWithValue("@name", sel.Text);
+                    con.Open();
+                    using (SqlDataAdapter sda = new SqlDataAdapter(getP))
+                    {
+                        DataTable dt = new DataTable();
+                        sda.Fill(dt);
+
+                        addP.Parameters.AddWithValue("@name", dt.Rows[0]["username"]);
+                        addP.Parameters.AddWithValue("@pass", dt.Rows[0]["password"]);
+                        addP.Parameters.AddWithValue("@email", dt.Rows[0]["email"]);
+                        addP.Parameters.AddWithValue("@inst", dt.Rows[0]["Institution"]);
+                        addP.Parameters.AddWithValue("@img", "");
+                        addP.ExecuteNonQuery();
+                    }
+                    delP.ExecuteNonQuery();
+                    con.Close();
                     break;
                 default:
                     break;

@@ -69,9 +69,11 @@
   <ItemGroup>
     <Content Include="admin.aspx" />
     <Content Include="Calculator.aspx" />
+    <Content Include="ClaseProf.aspx" />
     <Content Include="ControlPanel.aspx" />
     <Content Include="Desen.aspx" />
     <Content Include="index.aspx" />
+    <Content Include="indexProf.aspx" />
     <Content Include="LogInProf.aspx" />
     <Content Include="packages.config" />
     <Content Include="Problema.aspx" />
@@ -117,6 +119,7 @@
     <Content Include="Scripts\jquery-3.1.1.min.js" />
     <Content Include="Scripts\jquery-3.1.1.slim.js" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.js" />
+    <Content Include="TesteProf.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -133,6 +136,13 @@
     </Compile>
     <Compile Include="Calculator.aspx.designer.cs">
       <DependentUpon>Calculator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ClaseProf.aspx.cs">
+      <DependentUpon>ClaseProf.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ClaseProf.aspx.designer.cs">
+      <DependentUpon>ClaseProf.aspx</DependentUpon>
     </Compile>
     <Compile Include="ControlPanel.aspx.cs">
       <DependentUpon>ControlPanel.aspx</DependentUpon>
@@ -154,6 +164,13 @@
     </Compile>
     <Compile Include="index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="indexProf.aspx.cs">
+      <DependentUpon>indexProf.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="indexProf.aspx.designer.cs">
+      <DependentUpon>indexProf.aspx</DependentUpon>
     </Compile>
     <Compile Include="Log In.aspx.cs">
       <DependentUpon>Log In.aspx</DependentUpon>
@@ -248,6 +265,13 @@
       <DependentUpon>Rezultat.aspx</DependentUpon>
     </Compile>
     <Compile Include="Subprograme.cs" />
+    <Compile Include="TesteProf.aspx.cs">
+      <DependentUpon>TesteProf.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TesteProf.aspx.designer.cs">
+      <DependentUpon>TesteProf.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -23,7 +23,7 @@ namespace INfoEducatie
             cmd.Parameters.AddWithValue("@pass", pass.Text);
             cmd.Parameters.AddWithValue("@email", email.Text);
             cmd.Parameters.AddWithValue("@inst", inst.Text);
-            cmd.Parameters.AddWithValue("@img", null);
+            cmd.Parameters.AddWithValue("@img", "");
             con.Open();
             cmd.ExecuteNonQuery();
             con.Close();
