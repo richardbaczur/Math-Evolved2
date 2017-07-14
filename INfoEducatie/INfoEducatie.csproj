@@ -71,23 +71,28 @@
     <Content Include="Calculator.aspx" />
     <Content Include="ClaseProf.aspx" />
     <Content Include="ControlPanel.aspx" />
+    <Content Include="CreeazaClasa.aspx" />
     <Content Include="Desen.aspx" />
     <Content Include="index.aspx" />
     <Content Include="indexProf.aspx" />
     <Content Include="LogInProf.aspx" />
+    <Content Include="ManageClase.aspx" />
     <Content Include="packages.config" />
     <Content Include="Problema.aspx" />
     <Content Include="ProblemeSel.aspx" />
     <Content Include="Profile.aspx" />
+    <Content Include="ProfileClase.aspx" />
     <Content Include="PropuneProb.aspx" />
     <Content Include="PropuneQuiz.aspx" />
     <Content Include="Propuneri.aspx" />
+    <Content Include="PropuneriProf.aspx" />
     <Content Include="Quiz.aspx" />
     <Content Include="QuizSelector.aspx" />
     <Content Include="RegisterProfi.aspx" />
     <Content Include="Rezultat.aspx" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.1.1.min.map" />
+    <Content Include="CautareAutocomplet.ashx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -119,6 +124,8 @@
     <Content Include="Scripts\jquery-3.1.1.min.js" />
     <Content Include="Scripts\jquery-3.1.1.slim.js" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.js" />
+    <Content Include="StergeClase.aspx" />
+    <Content Include="TemeClase.aspx" />
     <Content Include="TesteProf.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -137,6 +144,9 @@
     <Compile Include="Calculator.aspx.designer.cs">
       <DependentUpon>Calculator.aspx</DependentUpon>
     </Compile>
+    <Compile Include="CautareAutocomplet.ashx.cs">
+      <DependentUpon>CautareAutocomplet.ashx</DependentUpon>
+    </Compile>
     <Compile Include="ClaseProf.aspx.cs">
       <DependentUpon>ClaseProf.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -150,6 +160,13 @@
     </Compile>
     <Compile Include="ControlPanel.aspx.designer.cs">
       <DependentUpon>ControlPanel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CreeazaClasa.aspx.cs">
+      <DependentUpon>CreeazaClasa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CreeazaClasa.aspx.designer.cs">
+      <DependentUpon>CreeazaClasa.aspx</DependentUpon>
     </Compile>
     <Compile Include="Desen.aspx.cs">
       <DependentUpon>Desen.aspx</DependentUpon>
@@ -186,6 +203,13 @@
     <Compile Include="LogInProf.aspx.designer.cs">
       <DependentUpon>LogInProf.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ManageClase.aspx.cs">
+      <DependentUpon>ManageClase.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ManageClase.aspx.designer.cs">
+      <DependentUpon>ManageClase.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Problema.aspx.cs">
       <DependentUpon>Problema.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -206,6 +230,13 @@
     </Compile>
     <Compile Include="Profile.aspx.designer.cs">
       <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProfileClase.aspx.cs">
+      <DependentUpon>ProfileClase.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProfileClase.aspx.designer.cs">
+      <DependentUpon>ProfileClase.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="PropuneProb.aspx.cs">
@@ -228,6 +259,13 @@
     </Compile>
     <Compile Include="Propuneri.aspx.designer.cs">
       <DependentUpon>Propuneri.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PropuneriProf.aspx.cs">
+      <DependentUpon>PropuneriProf.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PropuneriProf.aspx.designer.cs">
+      <DependentUpon>PropuneriProf.aspx</DependentUpon>
     </Compile>
     <Compile Include="Quiz.aspx.cs">
       <DependentUpon>Quiz.aspx</DependentUpon>
@@ -264,7 +302,21 @@
     <Compile Include="Rezultat.aspx.designer.cs">
       <DependentUpon>Rezultat.aspx</DependentUpon>
     </Compile>
+    <Compile Include="StergeClase.aspx.cs">
+      <DependentUpon>StergeClase.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StergeClase.aspx.designer.cs">
+      <DependentUpon>StergeClase.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Subprograme.cs" />
+    <Compile Include="TemeClase.aspx.cs">
+      <DependentUpon>TemeClase.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TemeClase.aspx.designer.cs">
+      <DependentUpon>TemeClase.aspx</DependentUpon>
+    </Compile>
     <Compile Include="TesteProf.aspx.cs">
       <DependentUpon>TesteProf.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

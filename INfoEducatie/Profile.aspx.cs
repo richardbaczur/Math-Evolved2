@@ -11,9 +11,10 @@ namespace INfoEducatie
 {
     public partial class Profile : System.Web.UI.Page
     {
-        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\ricop\Source\Repos\InfoEdu\INfoEducatie\App_Data\date.mdf;Integrated Security=True");
+        
         protected void Page_Load(object sender, EventArgs e)
         {
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\ricop\Source\Repos\InfoEdu\INfoEducatie\App_Data\date.mdf;Integrated Security=True");
             SqlCommand cmd = new SqlCommand("SELECT * FROM Users WHERE username=@name", con);
             cmd.Parameters.AddWithValue("@name", INfoEducatie.Log_In.name);
             con.Open();
@@ -46,6 +47,7 @@ namespace INfoEducatie
 
         protected void picSave_Click(object sender, EventArgs e)
         {
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\ricop\Source\Repos\InfoEdu\INfoEducatie\App_Data\date.mdf;Integrated Security=True");
             SqlCommand cmd = new SqlCommand("UPDATE Users SET image=@img WHERE username=@name",con);
             cmd.Parameters.AddWithValue("@name", INfoEducatie.Log_In.name);
             cmd.Parameters.AddWithValue("@img", INfoEducatie.Log_In.name);
@@ -54,6 +56,11 @@ namespace INfoEducatie
             cmd.ExecuteNonQuery();
             con.Close();
             Response.Redirect("Profile.aspx");
+        }
+
+        protected void cls_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("ProfileClase.aspx");
         }
     }
 }

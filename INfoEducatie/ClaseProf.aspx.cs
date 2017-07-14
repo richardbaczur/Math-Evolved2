@@ -13,5 +13,25 @@ namespace INfoEducatie
         {
 
         }
+
+        protected void create_Click(object sender, EventArgs e)
+        {
+            sectie.Src = "CreeazaClasa.aspx";
+        }
+
+        protected void manage_Click(object sender, EventArgs e)
+        {
+            sectie.Src = "ManageClase.aspx";
+        }
+
+        protected void delete_Click(object sender, EventArgs e)
+        {
+            sectie.Src = "StergeClase.aspx";
+        }
+
+        protected void tema_Click(object sender, EventArgs e)
+        {
+            sectie.Src = "TemeClase.aspx";
+        }
     } 
 }

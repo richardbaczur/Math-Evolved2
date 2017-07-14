@@ -10,7 +10,7 @@
 namespace INfoEducatie {
     
     
-    public partial class Profile {
+    public partial class ProfileClase {
         
         /// <summary>
         /// name control.
@@ -103,21 +103,48 @@ namespace INfoEducatie {
         protected global::System.Web.UI.WebControls.Button cls;
         
         /// <summary>
-        /// pro control.
+        /// clasa control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl pro;
+        protected global::System.Web.UI.WebControls.DropDownList clasa;
         
         /// <summary>
-        /// qui control.
+        /// sel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl qui;
+        protected global::System.Web.UI.WebControls.Button sel;
+        
+        /// <summary>
+        /// teme control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl teme;
+        
+        /// <summary>
+        /// lista control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl lista;
+        
+        /// <summary>
+        /// test control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl test;
     }
 }

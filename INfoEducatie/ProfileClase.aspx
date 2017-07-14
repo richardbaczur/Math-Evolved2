@@ -1,4 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Profile.aspx.cs" Inherits="INfoEducatie.Profile" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ProfileClase.aspx.cs" Inherits="INfoEducatie.ProfileClase" %>
+
 
 <!DOCTYPE html>
 
@@ -143,20 +144,15 @@
                     <h1 class="text-center">Profile</h1>
                     <br />
                         <asp:Button runat="server" ID="pq" CssClass="btn  btn-info" Text="Probleme/Quiz-uri" />
-                        <asp:Button runat="server" ID="cls" CssClass="btn  btn-info" Text="Clasa" OnClick="cls_Click" />
+                        <asp:Button runat="server" ID="cls" CssClass="btn  btn-info" Text="Clasa" />
                     <div class="row">
                         <br />
                         <br />
-                        <div id="pro" runat="server" class="col-md-6 text-center">
-                            <h2>Probleme</h2>
-                            <hr />
-                            <br />
-                        </div>
-                        <div id="qui" runat="server" class="col-md-6 text-center">
-                            <h2>Quiz-uri</h2>
-                            <hr />
-                            <br />
-                        </div>
+                        <asp:DropDownList runat="server" ID="clasa" CssClass="form-control"></asp:DropDownList><br />
+                        <asp:Button runat="server" ID="sel" Text="Selecteaza clasa" CssClass="btn btn-success" OnClick="sel_Click" /><br />
+                        <h3 runat="server" id="teme"></h3><br />
+                        <p runat="server" id="lista"></p><br />
+                        <h3 runat="server" id="test"></h3><br />
                     </div>
                 </div>
             </div>

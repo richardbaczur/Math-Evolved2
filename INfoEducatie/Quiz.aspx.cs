@@ -105,7 +105,9 @@ namespace INfoEducatie
                         points++;
                     }
                     points *= 2;
+                    if (Request.QueryString["type"]!="test")
                     Response.Redirect("Rezultat.aspx?name=" + name + "&rez=" + points);
+                    else Response.Redirect("Rezultat.aspx?name=" + name + "&rez=" + points + "&type=test&nume=" + Request.QueryString["tname"]);
                 }
             }
             catch

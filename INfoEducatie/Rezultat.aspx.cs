@@ -19,6 +19,32 @@ namespace INfoEducatie
             {
                 addToDB();
             }
+            if (Request.QueryString["type"] == "test")
+            {
+                Test();
+            }
+        }
+
+        private void Test()
+        {
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\ricop\Source\Repos\InfoEdu\INfoEducatie\App_Data\date.mdf;Integrated Security=True");
+            SqlCommand sel = new SqlCommand("SELECT * FROM Teste WHERE Nume=@name", con);
+            SqlCommand cmd = new SqlCommand("UPDATE Teste SET Note=@nota, Elevi=@elev WHERE Nume=@name", con);
+            sel.Parameters.AddWithValue("@name", Request.QueryString["tname"]);
+            cmd.Parameters.AddWithValue("@name", Request.QueryString["tname"]);
+            con.Open();
+            using (SqlDataAdapter sda = new SqlDataAdapter(sel))
+            {
+                DataTable dt = new DataTable();
+                sda.Fill(dt);
+                string elevi = dt.Rows[0]["Elevi"].ToString() + "," + INfoEducatie.Log_In.name;
+                string note = dt.Rows[0]["Note"].ToString() + "," + Request.QueryString["rez"];
+
+                cmd.Parameters.AddWithValue("@nota", note);
+                cmd.Parameters.AddWithValue("@elev", elevi);
+            }
+            con.Close();
+
         }
 
         private void addToDB()
