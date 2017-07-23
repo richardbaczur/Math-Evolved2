@@ -15,7 +15,7 @@ namespace INfoEducatie
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            cls.Items.Clear();
             SqlConnection con = new SqlConnection();
             con.ConnectionString = ConfigurationManager.ConnectionStrings["con"].ConnectionString;
             SqlCommand cmd = new SqlCommand("SELECT * FROM Clase WHERE Profesor=@prof", con);
@@ -30,75 +30,105 @@ namespace INfoEducatie
                     string[] elevi = dt.Rows[i]["Elevi"].ToString().Split(',');
                 }
             }
-            del.Items.Clear();
+            if (nCls.InnerText != "")
+            {
+                cmd = new SqlCommand("SELECT Elevi FROM Clase WHERE Nume=@name", con);
+                cmd.Parameters.AddWithValue("@name", cls.Text);
+                nCls.InnerText = cls.Text;
+                con.Open();
+                using (SqlDataAdapter sda = new SqlDataAdapter(cmd))
+                {
+                    DataTable dt = new DataTable();
+                    sda.Fill(dt);
 
+                    string[] elevi = dt.Rows[0]["Elevi"].ToString().Split(',');
+                    for (int i = 0; i < elevi.Length; i++)
+                    {
+                        if (i != elevi.Length - 1)
+                        {
+                            toti.InnerText += elevi[i] + ", ";
+                        }
+                        else toti.InnerText += elevi[i];
+                    }
+                }
+                con.Close();
+            }
         }
 
         protected void select_Click(object sender, EventArgs e)
         {
             nume.Enabled = true;
-            del.Enabled = true;
-            dele.Enabled = true;
+            delete.Enabled = true;
             add.Enabled = true;
+            dele.Enabled = true;
+            toti.InnerText = "";
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\ricop\Source\Repos\Math-Evolved2\INfoEducatie\App_Data\date.mdf;Integrated Security=True");
+            SqlCommand cmd = new SqlCommand("SELECT Elevi FROM Clase WHERE Nume=@name",con);
+            cmd.Parameters.AddWithValue("@name", cls.Text);
             nCls.InnerText = cls.Text;
-            cls.Items.Clear();
-            del.Items.Clear();
-            SqlConnection con = new SqlConnection();
-            con.ConnectionString = ConfigurationManager.ConnectionStrings["con"].ConnectionString;
-            SqlCommand cmd = new SqlCommand("SELECT * FROM Clase WHERE Nume=@name", con);
-            cmd.Parameters.AddWithValue("@name", nCls.InnerText);
+            con.Open();
             using (SqlDataAdapter sda = new SqlDataAdapter(cmd))
             {
                 DataTable dt = new DataTable();
                 sda.Fill(dt);
+
                 string[] elevi = dt.Rows[0]["Elevi"].ToString().Split(',');
                 for (int i = 0; i < elevi.Length; i++)
                 {
-                    del.Items.Add(elevi[i]);
+                    if (dt.Rows[0]["Elevi"].ToString()!="") 
+                    toti.InnerText += elevi[i] + ", ";
                 }
             }
-            
+            con.Close();
         }
 
         protected void add_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\ricop\Source\Repos\InfoEdu\INfoEducatie\App_Data\date.mdf;Integrated Security=True");
-            SqlCommand update = new SqlCommand("UPDATE Clase SET Elevi=@nquiz WHERE Nume=@name", con);
-            SqlCommand extragere = new SqlCommand("SELECT Elevi FROM Clase WHERE Nume=@name", con);
-            extragere.Parameters.AddWithValue("@name", nCls.InnerText);
-            update.Parameters.AddWithValue("@name", nCls.InnerText);
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\ricop\Source\Repos\Math-Evolved2\INfoEducatie\App_Data\date.mdf;Integrated Security=True");
+            SqlCommand cmd = new SqlCommand("SELECT * FROM Users WHERE username=@name", con);
+            cmd.Parameters.AddWithValue("@name", nume.Text);
             con.Open();
-            using (SqlDataAdapter sda = new SqlDataAdapter(extragere))
+            using (SqlDataAdapter sda = new SqlDataAdapter(cmd))
             {
                 DataTable dt = new DataTable();
                 sda.Fill(dt);
-                string[] aux = dt.Rows[0]["Elevi"].ToString().Split(',');
-                 
-                if (dt.Rows[0]["Elevi"].ToString() == "" || dt.Rows[0]["Elevi"].ToString() == null)
+
+                if (dt.Rows.Count == 0)
                 {
-                    update.Parameters.AddWithValue("@nquiz", nume.Text);
+                    return;
                 }
                 else
                 {
-                    update.Parameters.AddWithValue("@nquiz", dt.Rows[0]["Elevi"] + "," + nume.Text);
+                    toti.InnerText = toti.InnerText.Substring(0, toti.InnerText.Length - 7);
+                    toti.InnerText += nume.Text + ",";
+                    SqlCommand add = new SqlCommand("UPDATE Clase SET Elevi=@nou WHERE Nume=@cls", con);
+                    add.Parameters.AddWithValue("@nou", toti.InnerText);
+                    add.Parameters.AddWithValue("@cls", nCls.InnerText);
+                    add.ExecuteNonQuery();
                 }
-                update.ExecuteNonQuery();
             }
             con.Close();
         }
 
         protected void dele_Click(object sender, EventArgs e)
         {
-            string nm = nume.Text;
-            cls.Items.Clear();
-            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\ricop\Source\Repos\InfoEdu\INfoEducatie\App_Data\date.mdf;Integrated Security=True");
-            SqlCommand ins = new SqlCommand("UPDATE Clase SET Elevi = Elevi + @elevinou WHERE Nume=@name", con);
-            ins.Parameters.AddWithValue("@elevinou", nm+",");
-            ins.Parameters.AddWithValue("@name", nCls.InnerText);
+            toti.InnerText = "";
+            string[] elevi = toti.InnerText.Split(',');
+
+            for (int i = 0; i < elevi.Length; i++) 
+            {
+                if (elevi[i] == delete.Text) continue;
+                else if (i < elevi.Length - 1) toti.InnerText += elevi[i];
+                else toti.InnerText += elevi[i] + ",";
+            }
+
+            SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\ricop\Source\Repos\Math-Evolved2\INfoEducatie\App_Data\date.mdf;Integrated Security=True");
+            SqlCommand cmd = new SqlCommand("UPDATE Clase SET Elevi=@elevi WHERE Nume=@name", con);
+            cmd.Parameters.AddWithValue("@elevi", toti.InnerText);
+            cmd.Parameters.AddWithValue("@name", nCls.InnerText);
             con.Open();
-            ins.ExecuteNonQuery();
+            cmd.ExecuteNonQuery();
             con.Close();
-            Page_Load(null, null);
         }
     }
 }

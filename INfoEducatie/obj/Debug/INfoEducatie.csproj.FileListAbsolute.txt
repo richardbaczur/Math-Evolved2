@@ -149,3 +149,9 @@ C:\Users\ricop\Source\Repos\InfoEdu\INfoEducatie\bin\INfoEducatie.pdb
 C:\Users\ricop\Source\Repos\InfoEdu\INfoEducatie\obj\Debug\INfoEducatie.csprojResolveAssemblyReference.cache
 C:\Users\ricop\Source\Repos\InfoEdu\INfoEducatie\obj\Debug\INfoEducatie.dll
 C:\Users\ricop\Source\Repos\InfoEdu\INfoEducatie\obj\Debug\INfoEducatie.pdb
+C:\Users\ricop\Source\Repos\Math-Evolved2\INfoEducatie\obj\Debug\INfoEducatie.csprojResolveAssemblyReference.cache
+C:\Users\ricop\Source\Repos\Math-Evolved2\INfoEducatie\obj\Debug\INfoEducatie.dll
+C:\Users\ricop\Source\Repos\Math-Evolved2\INfoEducatie\obj\Debug\INfoEducatie.pdb
+C:\Users\ricop\Source\Repos\Math-Evolved2\INfoEducatie\bin\INfoEducatie.dll.config
+C:\Users\ricop\Source\Repos\Math-Evolved2\INfoEducatie\bin\INfoEducatie.dll
+C:\Users\ricop\Source\Repos\Math-Evolved2\INfoEducatie\bin\INfoEducatie.pdb

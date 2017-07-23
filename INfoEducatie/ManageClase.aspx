@@ -33,8 +33,11 @@
                 <h2 id="nCls" runat="server" class="text-center"></h2><br /><br />
                 <label>Adaugati elev</label><br />
                 <asp:TextBox ID="nume" CssClass="form-control" Enabled="false" runat="server"></asp:TextBox><br />
+                <label>Elevi:</label><br />
+                <textarea runat="server" id="toti" class="form-control"></textarea><br />
                 <label>Stergeti elev</label><br />
-                <asp:DropDownList runat="server" Enabled="false" CssClass="form-control" ID="del"></asp:DropDownList><br /><br />
+                <asp:TextBox runat="server" ID="delete" Enabled="false" CssClass="form-control"></asp:TextBox>
+                <br /><br />               
                 <asp:Button runat="server" ID="add" Enabled="false" Text="Adauga elev" CssClass="btn btn-success pull-left" OnClick="add_Click" />
                 <asp:Button runat="server" ID="dele" Enabled="false" Text="Sterge elev" CssClass="btn btn-danger pull-right" OnClick="dele_Click" />
             </div>

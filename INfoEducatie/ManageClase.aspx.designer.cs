@@ -58,13 +58,22 @@ namespace INfoEducatie {
         protected global::System.Web.UI.WebControls.TextBox nume;
         
         /// <summary>
-        /// del control.
+        /// toti control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList del;
+        protected global::System.Web.UI.HtmlControls.HtmlTextArea toti;
+        
+        /// <summary>
+        /// delete control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox delete;
         
         /// <summary>
         /// add control.

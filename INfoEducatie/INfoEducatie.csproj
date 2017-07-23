@@ -92,7 +92,6 @@
     <Content Include="Rezultat.aspx" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.1.1.min.map" />
-    <Content Include="CautareAutocomplet.ashx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -143,9 +142,6 @@
     </Compile>
     <Compile Include="Calculator.aspx.designer.cs">
       <DependentUpon>Calculator.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="CautareAutocomplet.ashx.cs">
-      <DependentUpon>CautareAutocomplet.ashx</DependentUpon>
     </Compile>
     <Compile Include="ClaseProf.aspx.cs">
       <DependentUpon>ClaseProf.aspx</DependentUpon>
