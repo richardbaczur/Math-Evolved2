@@ -66,5 +66,10 @@ namespace INfoEducatie
                 con.Close();
             }
         }
+
+        protected void verif_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("VerifTemeProf.aspx");
+        }
     }
 }

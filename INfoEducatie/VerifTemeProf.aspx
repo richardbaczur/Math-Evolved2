@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="TemeClase.aspx.cs" Inherits="INfoEducatie.TemeClase" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="VerifTemeProf.aspx.cs" Inherits="INfoEducatie.VerifTemeProf" %>
 
 <!DOCTYPE html>
 
@@ -29,13 +29,28 @@
         <label>Selectectati clasa</label><br />
         <asp:DropDownList runat="server" ID="cls" CssClass="form-control"></asp:DropDownList><asp:Button runat="server" ID="sel" Text="Selecteaza clasa" CssClass="btn btn-primary" OnClick="sel_Click" />
         <br />
-        <label>Selecteaza problema</label><br />
-        <asp:DropDownList runat="server" ID="prob" CssClass="form-control"></asp:DropDownList><br />
-        <asp:Button runat="server" ID="add" Text="Adauga problema" CssClass="btn btn-success pull-left" OnClick="add_Click" /><br />
-        <textarea runat="server" id="probleme" class="form-control" rows="5"></textarea>
-        <br />
-        <asp:Button runat="server" ID="set" Text="Posteaza tema" CssClass="btn btn-success pull-left" OnClick="set_Click" />
-        <asp:Button runat="server" ID="verif" Text="Verifica teme" CssClass="btn btn-warning pull-right" OnClick="verif_Click" />
+        <div class="table-responsive">
+            <table class="table table-striped table-bordered table-hover table-condensed">
+                <thead>
+                    <tr>
+                        <th>
+                            #
+                        </th>
+                        <th>
+                            Nume
+                        </th>
+                        <th>
+                            Probleme
+                        </th>
+                        <th>
+                            Teme la zi
+                        </th>
+                    </tr>
+                </thead>
+                <tbody runat="server" id="date">
+                </tbody>
+            </table>
+        </div>
     </form>
 </body>
 </html>

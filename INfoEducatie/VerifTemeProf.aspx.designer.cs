@@ -10,7 +10,7 @@
 namespace INfoEducatie {
     
     
-    public partial class TemeClase {
+    public partial class VerifTemeProf {
         
         /// <summary>
         /// form1 control.
@@ -49,48 +49,12 @@ namespace INfoEducatie {
         protected global::System.Web.UI.WebControls.Button sel;
         
         /// <summary>
-        /// prob control.
+        /// date control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList prob;
-        
-        /// <summary>
-        /// add control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button add;
-        
-        /// <summary>
-        /// probleme control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlTextArea probleme;
-        
-        /// <summary>
-        /// set control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button set;
-        
-        /// <summary>
-        /// verif control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button verif;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl date;
     }
 }

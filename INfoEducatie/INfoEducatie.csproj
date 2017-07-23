@@ -126,6 +126,7 @@
     <Content Include="StergeClase.aspx" />
     <Content Include="TemeClase.aspx" />
     <Content Include="TesteProf.aspx" />
+    <Content Include="VerifTemeProf.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -319,6 +320,13 @@
     </Compile>
     <Compile Include="TesteProf.aspx.designer.cs">
       <DependentUpon>TesteProf.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VerifTemeProf.aspx.cs">
+      <DependentUpon>VerifTemeProf.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VerifTemeProf.aspx.designer.cs">
+      <DependentUpon>VerifTemeProf.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
